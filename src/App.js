@@ -4,7 +4,7 @@ import { Container, Card, Button, Row, Col } from 'react-bootstrap';
 import RocketLaunchDetails from './components/RocketLaunchDetails';
 import querystring from 'querystring';
 import './App.css';
-import load from './loadRocket.gif';
+import load from './transparent-rocket.gif';
 
 const API_BASE_URL = "https://api.spacexdata.com/v3/launches?limit=100";
 

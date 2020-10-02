@@ -1,7 +1,7 @@
 .Rocket-details-card{
     width:18rem;
     padding:1rem;
-    margin-bottom: 15px;
+    margin: 10px auto;
 }
 
 .Rocket-mission-image{
@@ -25,4 +25,10 @@
 .Rocket-detail-value{
     color: #63659f;
     font-weight: 400;
+}
+
+@media only screen and (min-width: 700px) {
+  .Rocket-details-card {
+    margin: 10px 32px;
+  }
 }

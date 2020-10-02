@@ -35,6 +35,8 @@ body{
   font-size: calc(22px + 2vmin);
   color: #0A0A0A;
   padding-left: 16px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .App-link {
@@ -43,7 +45,7 @@ body{
 
 .App-filter-card {
   width: 18rem;
-  margin-bottom: 15px;
+  margin: 10px auto;
 }
 
 .App-filter-header {
@@ -80,6 +82,27 @@ body{
   flex: 0 40%;
   margin: 10px;
 }
+
+.launch-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+/* Container to limit max width */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width:700px) {
+
+  .grid-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

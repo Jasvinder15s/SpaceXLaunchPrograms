@@ -8,7 +8,7 @@ function RocketLaunchDetails({ details }) {
     const land_success = rocket.first_stage.cores[0].land_success;
 
     return (<Card className="Rocket-details-card">
-        <div key={flight_number}>
+        <div className="rocket-wrapper" key={flight_number}>
             <div>
                 <img src={imgSrc} alt="mission patch img not available on api" className="Rocket-mission-image"/>
             </div>

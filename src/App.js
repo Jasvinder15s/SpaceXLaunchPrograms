@@ -147,7 +147,7 @@ class App extends Component {
                 <div className="launch-container">
                   {data.map((details) => {
                     return (
-                      <div>
+                      <div className="rocket-info-container">
                         <RocketLaunchDetails details={details} />
                       </div>
                     );

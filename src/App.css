@@ -44,7 +44,7 @@ body{
 }
 
 .App-filter-card {
-  width: 18rem;
+  width: 100%;
   margin: 10px auto;
 }
 
@@ -72,6 +72,7 @@ body{
   padding-right: 15px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .App-Developer-name {
@@ -89,9 +90,13 @@ body{
   justify-content: space-around;
 }
 
+.rocket-info-container {
+  width: 100%;
+}
+
 /* Container to limit max width */
 .container {
-  max-width: 1440px;
+  max-width: 1550px;
   margin: 0 auto;
 }
 
@@ -100,6 +105,14 @@ body{
   .grid-container {
     display: flex;
     justify-content: space-around;
+  }
+
+  .App-filter-card {
+    width: 18rem;
+  }
+
+  .rocket-info-container {
+    width: auto;
   }
 }
 

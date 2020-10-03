@@ -15,7 +15,9 @@ body{
 
 .App-loader-box{  
   position: relative;
-  text-align: center;
+  text-align: center; 
+  max-width: 100%;
+  height: auto;
 }
 
 .App-logo {

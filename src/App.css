@@ -98,11 +98,11 @@ body{
 
 /* Container to limit max width */
 .container {
-  max-width: 1550px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
-@media only screen and (min-width:700px) {
+@media only screen and (min-width:768px) {
 
   .grid-container {
     display: flex;
@@ -113,8 +113,25 @@ body{
     width: 18rem;
   }
 
+  .App-filter-card .card-body {
+    padding: 0.5rem;
+  }
+
   .rocket-info-container {
-    width: auto;
+    width: 40%;
+    min-width: 220px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .App-filter-card {
+    width: 14rem;
+  }
+
+  .rocket-info-container {
+    width: 24%;
+    min-width: 190px;
+    padding: 2px;
   }
 }
 

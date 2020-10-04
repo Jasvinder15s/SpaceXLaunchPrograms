@@ -106,38 +106,42 @@ class App extends Component {
                       <hr className="App-filters-hr" />
                     </Card.Text>
 
-                    <div className="App-filter-button-container">
-                      <Button className="App-filter-button"
-                        variant={this.state.filters.launch_success === "true" ? "success" : "outline-success"}
-                        onClick={e => this.updateApiFilters('launch_success', e.target.value)} value="true">
-                        True
-                    </Button>
+                    <div className="row">
+                      <div className="App-filter-button-container">
+                        <Button className="App-filter-button"
+                          variant={this.state.filters.launch_success === "true" ? "success" : "outline-success"}
+                          onClick={e => this.updateApiFilters('launch_success', e.target.value)} value="true">
+                          True
+                      </Button>
 
-                      <Button className="App-filter-button"
-                        variant={this.state.filters.launch_success === "false" ? "success" : "outline-success"}
-                        onClick={e => this.updateApiFilters('launch_success', e.target.value)} value="false">
-                        False
-                    </Button>
+                        <Button className="App-filter-button"
+                          variant={this.state.filters.launch_success === "false" ? "success" : "outline-success"}
+                          onClick={e => this.updateApiFilters('launch_success', e.target.value)} value="false">
+                          False
+                      </Button>
+                      </div>
                     </div>
-
+                   
                     <Card.Text className="App-filter-heading">
                       Successful Landing
                       <hr className="App-filters-hr" />
                     </Card.Text>
-                    <div className="App-filter-button-container">
-                      <Button className="App-filter-button"
-                        variant={this.state.filters.land_success === "true" ? "success" : "outline-success"}
-                        onClick={e => this.updateApiFilters('land_success', e.target.value)} value="true">
-                        True
-                    </Button>
+                    <div className="row">
+                      <div className="App-filter-button-container">
+                        <Button className="App-filter-button"
+                          variant={this.state.filters.land_success === "true" ? "success" : "outline-success"}
+                          onClick={e => this.updateApiFilters('land_success', e.target.value)} value="true">
+                          True
+                      </Button>
 
-                      <Button className="App-filter-button"
-                        variant={this.state.filters.land_success === "false" ? "success" : "outline-success"}
-                        onClick={e => this.updateApiFilters('land_success', e.target.value)} value="false">
-                        False
-                    </Button>
+                        <Button className="App-filter-button"
+                          variant={this.state.filters.land_success === "false" ? "success" : "outline-success"}
+                          onClick={e => this.updateApiFilters('land_success', e.target.value)} value="false">
+                          False
+                      </Button>
+                      </div>
                     </div>
-
+                    
                   </Card.Body>
 
                 </Card>

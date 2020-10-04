@@ -7,6 +7,8 @@
 .Rocket-mission-image{
     background-color: #F2F2F2;
     width: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 .Rocket-mission-name-flight-number {
@@ -29,14 +31,32 @@
 }
 
 .rocket-wrapper {
- display: flex;
+  width: auto;
+  margin: 0 auto;
+ /* display: flex;
  flex-direction: column;
- align-items: center;
+ align-items: center; */
+ /* margin: 0 auto; */
 }
 
-@media only screen and (min-width: 700px) {
-  .Rocket-details-card {
-    margin: 10px 10px;
-    width: 18rem;
+@media only screen and (min-width: 768px) {
+  .Rocket-mission-image {
+    width: 95%;
   }
+
+  .Rocket-detail-label {
+    font-size: 16px;
+  }
+
+  .Rocket-mission-name-flight-number {
+    max-width: calc(43vw - 150px );
+  }
+
+  .Rocket-details-card {
+    height: 98%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  
 }

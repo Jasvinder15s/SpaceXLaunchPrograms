@@ -52,4 +52,4 @@ This app is deployed on **Netlify** [Spacex-Launch-Programs](https://spacex-laun
 
 ![Alt text](https://ik.imagekit.io/eudv8cramv/Screenshot__1273__OetAvBQCL.png)
 
-Developed By Jasvinder Singh
+Developed By Jasvinder, Jennifer

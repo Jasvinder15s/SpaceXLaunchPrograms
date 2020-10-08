@@ -4,7 +4,7 @@ import { Container, Card, Button, Row, Col } from 'react-bootstrap';
 import RocketLaunchDetails from './components/RocketLaunchDetails';
 import querystring from 'querystring';
 import './App.css';
-import load from './loadRocket.gif';
+import loader from './loadRocket.gif';
 
 const API_BASE_URL = "https://api.spacexdata.com/v3/launches?limit=100";
 
@@ -69,7 +69,7 @@ class App extends Component {
     if (!isLoaded) {
       return <div className="App-loader-container">
         <div className="App-loader-box">
-          <img src={load} alt="loading..." />
+          <img src={loader} alt="loading..." />
         </div>
       </div>
     }
@@ -215,7 +215,7 @@ class App extends Component {
             </Row>
             <div>
               <h5 className="App-Developer-name">
-                Developed by : Jasvinder Singh, Jennifer B{" "}
+                Developed by : Jasvinder, Jennifer 
               </h5>
             </div>
           </Container>

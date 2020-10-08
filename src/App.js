@@ -214,8 +214,8 @@ class App extends Component {
               </Col>
             </Row>
             <div>
-              <h5 className="App-Developer-name">
-                Developed by : Jasvinder, Jennifer 
+              <h5 className="App-Developers-name">
+                Developed by : Jasvinder Singh, Jennifer B 
               </h5>
             </div>
           </Container>

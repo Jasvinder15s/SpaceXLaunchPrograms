@@ -2,36 +2,14 @@
 A front-end application which would help users list and browse all launches by SpaceX program.
 
 ## Installation
-To install, simply clone this repository & run the following command  `npm install`, this will install all the dependencies for you.
+To install, simply clone this repository & run the following command  `yarn`, this will install all the dependencies for you.
 
 ## Running Project
-To run this project locally, run the following command  `npm start`, this will start a local instance of the application & you will be able to run the app in your browser at this url http://localhost:3000/.
+To run this project locally, run the following command  `yarn start`, this will start a local instance of the application & you will be able to run the app in your browser at this url http://localhost:3000/.
 
 ### Netlify Deployment
 
-This app is deployed on **Netlify** [Spacex-Launch-Programs](https://spacex-launch-programs.netlify.app/)
-
-### Approach
-1. Fetched Api data.
-2. Created basic structure of app components i.e for filter and launch details and parcessed fetched data into it.
-3. Added Styling to match the UI requirements 
-4. Added filter functionality on click for single and multiple use cases.
-5. Added Responsive design
-6. Created Documentation
-7. Testing and Debugging throughout
-8. Netlify Deployment
-
-
-### Stack Details
-1. React
-2. React-bootstrap 
-3. Languages - JavaScript, JSX, CSS
-4. Editor- Visual Studio Code
-5. Browser - Google Chrome
-6. Os- Windows
-7. Deployment - Netlify
-8. Tools - npm, babel,yarn
-9. Online Json parser to view API data
+SpaceX app is deployed on **Netlify** [Spacex-Launch-Programs](https://spacex-launch-programs.netlify.app/)
 
 
 ## UI And Filter Implementation
@@ -52,4 +30,4 @@ This app is deployed on **Netlify** [Spacex-Launch-Programs](https://spacex-laun
 
 ![Alt text](https://ik.imagekit.io/eudv8cramv/Screenshot__1273__OetAvBQCL.png)
 
-Developed By Jasvinder, Jennifer
+Developed By [Jasvinder Singh Sabharwal](https://github.com/jvsinghk), [Jennifer B](https://github.com/jenndroid)

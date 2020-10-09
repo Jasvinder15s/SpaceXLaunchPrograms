@@ -1,10 +1,10 @@
-.Rocket-details-card{
-    width:18rem;
-    padding:1rem;
+.Rocket-details-card {
+    width: 18rem;
+    padding: 1rem;
     margin-bottom: 15px;
 }
 
-.Rocket-mission-image{
+.Rocket-mission-image {
     background-color: #F2F2F2;
 }
 
@@ -16,13 +16,13 @@
     margin-bottom: 1rem;
 }
 
-.Rocket-detail-label{
+.Rocket-detail-label {
     color: #181818;
     font-size: 18px;
     font-weight: 500;
 }
 
-.Rocket-detail-value{
+.Rocket-detail-value {
     color: #63659f;
     font-weight: 400;
 }

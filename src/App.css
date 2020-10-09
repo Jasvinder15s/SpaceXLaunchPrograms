@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #F2F2F2 !important;
 }
 
@@ -6,16 +6,16 @@ body{
   background-color: #F2F2F2;
 }
 
-.App-loader-container{
+.App-loader-container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.App-loader-box{  
+.App-loader-box {
   position: relative;
-  text-align: center; 
+  text-align: center;
   max-width: 100%;
   height: auto;
 }
@@ -66,15 +66,15 @@ body{
   margin: 0.4rem;
 }
 
-.App-filter-button-container{
-  width:100%;
+.App-filter-button-container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.App-Developer-name {
+.App-Developers-name {
   text-align: center !important;
 }
 
@@ -82,6 +82,7 @@ body{
   flex: 0 40%;
   margin: 10px;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

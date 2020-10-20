@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts build && node ./server",
-    "dev": "nodemon --ignore 'build/*' --exec \"yarn start\"",
+    "dev": "nodemon --ignore 'build/' --exec \"yarn start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
